@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+img{
+	object-fit:cover
+}
+
 .topo{
 	height: 110px;
 	background:linear-gradient(to top,#e5e7e7, white,white, #e5e7e7) ;
@@ -73,7 +77,7 @@
 .banner{
 	height: 488px;
 	width: 100%;
-	background-image: url(../img/IMG_5304.JPG);
+	background-image: url(../img/IMG_5304.png);
 	background-position: center;
 	background-size: cover;
 
@@ -112,7 +116,7 @@ h1{
 	width: 45%;
 }
 
-#quebra3{
+#quebra10{
 	height: 2px;
 	background-color: white;
 	width: 60%;
@@ -353,3 +357,354 @@ textarea{
 	color: #726277;
 	padding-top: 30px;
 }
+
+
+.linha_1,.linha_2,.linha_3{
+	height: 1px;
+	background-color: #294e85;
+	margin-top: 10px;
+	padding-top: 6px;
+	display: none;
+	
+}
+
+.menuMobile{
+	height: 60px;
+	width: 60px;
+	margin-bottom: 30px;
+	margin-top: -10px;
+    margin-left: 50px;
+    display: none;
+}
+
+.logo img{
+			height: 80px;
+    		width: 160px;
+    		object-fit: contain;
+    		padding-left: 15px;
+	}
+
+
+
+@media only screen and (min-width:768px) and (max-width:980px){
+	.topo_int,
+	.banner_int,
+	#titulo_roteiro_int,
+	.roteiro_1_int,
+	.roteiro_2_int,
+	.rodape_int{
+		max-width: 768px;
+	}
+
+	.texto{
+		margin-left: 55px;
+		font-size: 45px;
+	}
+
+	#quebra1 {
+    height: 2px;
+    background-color: white;
+    width: 85%;
+	}
+
+	#quebra2 {
+    height: 2px;
+    background-color: white;
+    width: 40%;
+}
+
+	#quebra10 {
+    height: 2px;
+    background-color: white;
+    width: 64%;
+}
+
+	.logo img{
+		height: 80px;
+    	width: 160px;
+    	object-fit: contain;
+    	padding-left: 15px;
+	}
+
+	#titulo_roteiro {
+    padding-left: 40px;
+}
+
+}	
+
+
+
+@media only screen and (min-width:425px) and (max-width:767px){
+
+	.topo_int,
+	.banner_int,
+	#titulo_roteiro_int,
+	.roteiro_1_int,
+	.roteiro_2_int,
+	.rodape_int{
+		max-width: 425px;
+	}
+
+	#menu{
+			cursor: pointer;
+		}
+
+		.menu ul {
+			position: absolute;	
+			flex-direction: column;
+			z-index: 9;
+			margin-top: -20px;
+			background:linear-gradient(to top,#e5e7e7, white,white, #e5e7e7) ;
+			display: none;
+			transition: all .10s;
+
+
+		}
+
+		.linha_1,.linha_2,.linha_3{
+		
+		display: block;
+		}
+
+
+		.menuMobile{
+			display: block;
+
+		}
+
+		.logo img{
+		height: 80px;
+    	width: 160px;
+    	object-fit: contain;
+    	padding-left: 15px;
+		}
+
+		.texto {
+    	height: auto;
+    	width: 100%;
+    	margin-top: 150px;
+    	margin-left: 30px;
+		}
+
+		h1 {
+   		 font-size: 40px;
+    	font-family: Raleway;
+    	color: white;
+
+		}
+
+		#quebra1 {
+    	height: 2px;
+    	background-color: white;
+   		 width: 85%;
+		}		
+
+		#quebra2 {
+   		 height: 2px;
+    	background-color: white;
+   		 width: 60%;
+		}
+
+		#quebra10 {
+   		 height: 2px;
+   		 background-color: white;
+   		 width: 85%;
+		}
+
+		#quebra4 {
+   		 height: 2px;
+    	background-color: white;
+    	width: 55%;
+		}
+
+		article{
+		margin-left: 10px;
+		margin-right: 10px;
+		}
+
+		article .roteiro_cont {
+  		  height: auto;
+    	display: flex;
+		}
+
+		#tittle {
+   		 font-size: 12px;
+   		 font-family: Raleway;
+   		 font-style: normal;
+    		color: #726277;
+   		 padding-top: 5px;
+		}
+
+		.rodape{
+		height: auto;
+
+		}
+
+		.rodape_int{
+		height: auto;
+		flex-direction: column;
+		}
+
+
+
+		input{
+		height: 20px;
+		}
+
+		input,textarea{
+		width: 90%;
+		}
+
+		#enviar{
+		margin-left: 30%;
+		}
+
+
+}	
+
+
+@media only screen and (min-width:320px) and (max-width:424px){
+
+	.topo_int,
+	.banner_int,
+	#titulo_roteiro_int,
+	.roteiro_1_int,
+	.roteiro_2_int,
+	.rodape_int{
+		max-width: 320px;
+	}
+
+	#menu{
+			cursor: pointer;
+		}
+
+		.menu ul {
+			position: absolute;	
+			flex-direction: column;
+			z-index: 9;
+			margin-top: -20px;
+			background:linear-gradient(to top,#e5e7e7, white,white, #e5e7e7) ;
+			display: none;
+			transition: all .10s;
+
+
+		}
+
+		.linha_1,.linha_2,.linha_3{
+		
+			display: block;
+		}
+
+
+		.menuMobile{
+			display: block;
+
+		}
+
+		.logo img{
+			height: 80px;
+    		width: 160px;
+    		object-fit: contain;
+    		padding-left: 15px;
+		}
+
+
+		.texto {
+    		height: auto;
+    		width: auto;
+    		margin-top: 150px;
+    		margin-left: 10px;
+		}
+
+		#quebra1 {
+    		height: 2px;
+    		background-color: white;
+    		width: 87%;
+		}
+
+		h1 {
+   			 font-size: 33px;
+    		font-family: Raleway;
+    		color: white;
+		}
+
+		#quebra2 {
+    		height: 2px;
+    		background-color: white;
+    		width: 67%;
+		}
+
+		#quebra10 {
+   			 height: 2px;
+    		background-color: white;
+    		width: 95%;
+		}
+
+		#quebra4 {
+    		height: 2px;
+    		background-color: white;
+    		width: 60%;
+		}
+
+		article{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		article .roteiro_cont {
+  			  height: auto;
+    		display: flex;
+		}
+
+		#tittle {
+   		 	font-size: 11px;
+    		font-family: Raleway;
+    		font-style: normal;
+    		color: #726277;
+    		padding-top: 5px;
+		}
+
+		#localizacao {
+    		color: #726277;
+   		    font-size: 14px;
+   			 font-style: italic;
+		}
+
+		#btn_btn {
+    		height: 16px;
+    		width: 100px;
+    		color: white;
+    		background-color: #726277;
+   			 font-size: 10px;
+    		border: none;
+    		border-radius: 10px;
+		}
+
+
+		.rodape{
+			height: auto;
+
+		}
+
+		.rodape_int{
+			height: auto;
+			flex-direction: column;
+		}
+
+
+
+		input{
+			height: 20px;
+		}
+
+		input,textarea{
+			width: 90%;
+		}
+
+		#enviar{
+			margin-left: 30%;
+		}
+
+
+
+}	

@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+img{
+	object-fit:cover
+}
+
 .topo{
 	height: 110px;
 	background:linear-gradient(to top,#e5e7e7, white,white, #e5e7e7) ;
@@ -36,6 +40,8 @@
 
 
 }
+
+
 
 .menu ul {
 	list-style: none;
@@ -78,7 +84,10 @@
 .slider-principal img{
 	height: 420px;
 	width: 100%;
+	object-fit:cover;
 }
+
+
 
 #texto{
 	position: absolute;
@@ -111,8 +120,6 @@ button.slick-prev{
 	width: 25px;
 	background-color:transparent;
 	position: absolute;
-	z-index: 9;
-
 }
 
 button.slick-next {
@@ -173,6 +180,7 @@ li.slick-active button{
 	height: 80px;
 	width: 80px;
 	padding-left: 20px;
+	object-fit:cover
 }
 
 .container{
@@ -203,6 +211,8 @@ article{
 article .roteiro img{
 	width: 100%;
 	height: 190px;
+	object-fit:cover
+
 
 }
 
@@ -315,6 +325,8 @@ article #roteiro_dest{
 	height: 100%;
 	width: 100%;
 	border-radius: 100%;
+	object-fit:cover;
+
 }
 
 #bloco_1_cont{
@@ -458,3 +470,311 @@ textarea{
 	width:30px;
 	
 }
+
+
+.linha_1,.linha_2,.linha_3{
+	height: 1px;
+	background-color: #294e85;
+	margin-top: 10px;
+	padding-top: 6px;
+	display: none;
+	
+}
+
+.menuMobile{
+	height: 60px;
+	width: 60px;
+	margin-bottom: 30px;
+	margin-top: -10px;
+    margin-left: 50px;
+    display: none;
+}
+
+.logo img{
+			height: 80px;
+    		width: 160px;
+    		object-fit: contain;
+    		padding-left: 15px;
+	}
+
+
+@media only screen and (min-width:768px) and (max-width:980px){
+		.topo_int,
+		.container_int,
+		.opiniao_int,
+		.rodape_int{
+			max-width: 768px;
+		}
+
+		#bloco_1{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+		#texto{
+			margin-left: 85px;
+		}
+
+		.logo img{
+			height: 80px;
+    		width: 160px;
+    		object-fit: contain;
+    		padding-left: 15px;
+	}
+
+}
+
+
+@media only screen and (min-width:425px) and (max-width:767px){
+
+		.topo_int,
+		.container_int,
+		.opiniao_int,
+		.rodape_int{
+			max-width: 425px;
+		}
+
+		#menu{
+			cursor: pointer;
+		}
+
+		.menu ul {
+			position: absolute;	
+			flex-direction: column;
+			z-index: 9;
+			margin-top: -20px;
+			background:linear-gradient(to top,#e5e7e7, white,white, #e5e7e7) ;
+			display: none;
+			transition: all .10s;
+
+
+		}
+
+		.linha_1,.linha_2,.linha_3{
+		
+		display: block;
+		}
+
+
+		.menuMobile{
+			display: block;
+
+		}
+
+		#texto{
+		margin-top: -250px;
+    	margin-left: 20px;
+    	width: 400px;
+    	font-size: 25px;
+		}
+
+		#quebra1 {
+    	height: 2px;
+   	    background-color: white;
+   		 width: 65%;
+		}
+
+		#quebra2 {
+   		 height: 2px;
+    	background-color: white;
+  		 width: 90%;
+		}
+
+		article {
+   		 flex: 1;
+   		 margin: 10px;
+   		 min-width: min-content;
+		}
+		
+		.logo{
+		 padding-left: 40px;
+		}
+
+		.slick-dots{
+		left: 30%;
+		}
+
+		.opiniao{
+			height: auto;
+		}
+
+		.opiniao_int{
+			height: auto;
+			flex-direction: column;
+			padding-bottom: 30px;
+		}
+
+		#bloco_1{
+			margin-right: auto;
+			margin-left: auto;
+			height: auto;
+		}
+
+		.rodape{
+			height: auto;
+
+		}
+
+		.rodape_int{
+			height: auto;
+			flex-direction: column;
+		}
+
+
+
+		input{
+			height: 20px;
+		}
+
+		input,textarea{
+			width: 90%;
+		}
+
+		#enviar{
+			margin-left: 30%;
+		}
+
+		#tittle {
+   	 font-size: 12px;
+    font-family: Raleway;
+    font-style: normal;
+    color: #726277;
+    padding-top: 5px;
+}
+
+	.logo img{
+			height: 80px;
+    		width: 160px;
+    		object-fit: contain;
+    		padding-left: 15px;
+	}
+
+
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:424px){
+
+		.topo_int,
+		.container_int,
+		.opiniao_int,
+		.rodape_int{
+			max-width: 320px;
+		}
+
+		#menu{
+			cursor: pointer;
+		}
+
+		.menu ul {
+			position: absolute;	
+			flex-direction: column;
+			z-index: 9;
+			margin-top: -20px;
+			background:linear-gradient(to top,#e5e7e7, white,white, #e5e7e7) ;
+			display: none;
+			transition: all .10s;
+		}
+
+		.linha_1,.linha_2,.linha_3{
+		
+		display: block;
+		}
+
+
+		.menuMobile{
+			display: block;
+
+		}
+
+		#texto{
+		margin-top: -250px;
+    	margin-left: 20px;
+    	width: 400px;
+    	font-size: 18px;
+		}
+
+		#quebra1 {
+    	height: 2px;
+   	    background-color: white;
+   		 width: 45%;
+		}
+
+		#quebra2 {
+   		 height: 2px;
+    	background-color: white;
+  		 width: 70%;
+		}
+
+		.slick-dots{
+		left: 20%;
+		}
+
+		article {
+   		 flex: 1;
+   		 margin: 10px;
+   		 min-width: min-content;
+		}
+
+		#tittle {
+    	font-size: 11px;
+    
+		}
+
+		#localizacao {
+   		font-size: 12px;
+   
+		}
+
+		.opiniao{
+			height: auto;
+		}
+
+		.opiniao_int{
+			height: auto;
+			flex-direction: column;
+			padding-bottom: 30px;
+		}
+
+		#bloco_1{
+			margin-right: auto;
+			margin-left: auto;
+			height: auto;
+		}
+
+		.rodape{
+			height: auto;
+
+		}
+
+		.rodape_int{
+			height: auto;
+			flex-direction: column;
+		}
+
+
+
+		input{
+			height: 20px;
+		}
+
+		input,textarea{
+			width: 90%;
+		}
+
+		#enviar{
+			margin-left: 30%;
+		}
+
+		.logo img{
+			height: 80px;
+    		width: 160px;
+    		object-fit: contain;
+    		padding-left: 15px;
+	}
+
+
+
+
+	}	

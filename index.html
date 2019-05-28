@@ -4,7 +4,7 @@
 	<title>Yolo Viagens</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/carrosel.css"/>
 	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=0"/>
 	<script type="text/javascript" src="assets/js/java.js"></script>
 </head>
@@ -17,21 +17,28 @@
 			</div>
 
 			<nav class="menu">
-				<ul>
+				<div id="menuMenu">
+				<div class="menuMobile" onclick="toggleMenu()">
+					<div class="linha_1"></div>
+					<div class="linha_2"></div>
+					<div class="linha_3"></div>
+				</div>	
+				<ul id="menu">
 					<li id="inicio"><a href="#">INICIO</li></a>
 					<li><a href="comida.html">COMIDA</li></a>
 					<li><a href="diversao.html">DIVERSÃO</li></a>
 					<li><a href="relax.html">RELAX</li></a>
 				</ul>
+			</div>
 			</nav>
 		</div>
 	</div>
 
 	<div class="banner">
 		<div class="slider-principal">
-  		    <img src="assets/img/back05.jpg">
-			<img src="assets/img/winter-sports-trends-snowkiting-snowfer-skijoering-fatbiking-airboarding_a.jpg">
-  			<img src="assets/img/terraco-italia.jpg">
+  		    <img src="assets/img/back05opc.png">
+			<img src="assets/img/winter-sports-trends-snowkiting-snowfer-skijoering-fatbiking-airboarding_a.png">
+  			<img src="assets/img/terraco-italia.png">
 		</div>
 	</div>
 
@@ -45,9 +52,9 @@
 	</div>
 
 
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/carrosel.js"></script>
 	<script type="text/javascript" src="assets/js/java.js"></script>
 
 	<div class="btn">
